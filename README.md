@@ -1,4 +1,4 @@
-# CHN-X-26 旋-26“惊雷”倾转旋翼战术攻击机 —— 完整型号方案（初稿）
+# WX-26 武旋-26“惊雷”倾转旋翼战术攻击机 —— 完整型号方案（初稿）
 
 **⚠️ IMPORTANT NOTICE**  
 
@@ -217,7 +217,5 @@ Any unauthorized commercial use or reproduction is prohibited.
 **欢迎技术讨论，谢绝无脑喷子。**
 
 ---
-
-> **惊雷乍现，VTOL起，机枪齐射，炮艇巡，蜂群压境，质疑全灭。**
 
 **初稿定稿于2026年3月9日**
