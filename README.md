@@ -11,8 +11,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 
 ## 一、命名说明
 
-- **CHN**：China，明确国产属性，避免与美国`X-*`系列混淆
-- **X**：旋（Xuán），倾转旋翼核心
+- **WX**：武旋（Xuán），明确为武装旋翼机，同 WS （武直）意义
 - **26**：2026年设计诞生
 
 **正式代号**：惊雷（Thunderclap）
@@ -217,5 +216,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 **欢迎技术讨论，谢绝无脑喷子。**
 
 ---
+
+> **惊雷乍现，VTOL起，机枪齐射，炮艇巡，蜂群压境，质疑全灭。**
 
 **初稿定稿于2026年3月9日**
