@@ -20,7 +20,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 
 ## 二、设计灵感
 
-源自游戏《Turboprop Flight Simulator》（TFS）MV-40倾转旋翼机（ https://turboprop-flight-simulator.fandom.com/wiki/MV-40 ），提取“倾转旋翼灵活、低空作战、可量产”核心亮点，结合现实航空工程逻辑进行国产化优化。
+源自游戏《Turboprop Flight Simulator》（TFS）MV-40倾转旋翼机（ <https://turboprop-flight-simulator.fandom.com/wiki/MV-40> ），提取“倾转旋翼灵活、低空作战、可量产”核心亮点，结合现实航空工程逻辑进行国产化优化。
 
 ---
 
@@ -33,7 +33,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 ## 四、基础平台（三型通用）
 
 | 部件 | 方案 |
-|:-----|:-----|
+| :----- | :----- |
 | 机身 | 运-12加宽型，宽2.2米，碳纤维+钛合金纵梁 |
 | 机翼 | 固定翼+倾转旋翼，参考XC-142/V-22 |
 | 旋翼 | 固定直径五叶复合材料螺旋桨 |
@@ -63,7 +63,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 ### 惊雷-A（有人版·纯机枪压制）
 
 | 项目 | 数值 |
-|:-----|:-----|
+| :----- | :----- |
 | 机头 | QJB-171 12.7mm ×1门，800发 |
 | 两侧 | QJB-201 5.8mm ×10门，550发/门 |
 | 总射速 | 8600发/分钟 |
@@ -83,7 +83,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 ### 惊雷-B（有人版·指挥+攻坚）
 
 | 项目 | 数值 |
-|:-----|:-----|
+| :----- | :----- |
 | 机头 | QJB-171 12.7mm ×1门，800发 |
 | 两侧 | QJB-201 5.8mm ×6门，800发/门 |
 | 机尾 | QLT89 50mm榴弹 ×2门，自动装填30发/分钟 |
@@ -105,7 +105,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 ### 惊雷-U（无人机版·蜂群模块）
 
 | 项目 | 数值 |
-|:-----|:-----|
+| :----- | :----- |
 | 空重 | 3.05吨 |
 | 最大起飞重量 | 8.65吨 |
 | 最大速度 | 510 km/h |
@@ -116,16 +116,17 @@ Any unauthorized commercial use or reproduction is prohibited.
 | 过载 | **9.0G** |
 | 红色模式限时 | 1小时 |
 
-**模块化配置**
+**模块化配置：**
 
 | 模块 | 武器/设备 |
-|:-----|:----------|
+| :----- | :---------- |
 | 清场型 | 5.8mm ×10门，4000发 |
 | 侦察型 | 光电/雷达，无武器 |
 | 电子战型 | 干扰吊舱 ×2个 |
 | 自杀型 | 高爆炸药 1吨 |
 
-**成本**
+**成本：**
+
 - 基础型：3400万
 - 满配型：3600万
 - 性价比：**0.0262**（超A-10 118%）
@@ -135,7 +136,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 ## 六、指挥体系
 
 | 层级 | 机型 | 职责 |
-|:-----|:-----|:-----|
+| :----- | :----- | :----- |
 | 第1层 | J-36 | 高空总指挥，双座型，带6-12架U型 |
 | 第2层 | 惊雷-B | 低空指挥+攻坚，每架带6-12架U型 |
 | 第3层 | 惊雷-U | 蜂群前锋，执行指令 |
@@ -148,13 +149,14 @@ Any unauthorized commercial use or reproduction is prohibited.
 
 ## 七、飞控系统（三模式+应急）
 
-| 模式 | 油门 | 推重比 | 用途 | 限时 |
-|:-----|:-----|:-------|:-----|:-----|
-| 绿色 | 40% | 0.95 | 日常巡航 | 无限制 |
-| 橙色 | 80% | 1.90 | 战斗机动 | 2小时 |
-| 红色 | 100% | **2.38** | 突防/逃命 | 有人30秒/无人1小时 |
+| 模式 | 油门 | 时间 | 说明 |
+| :--- | ---: | ---: | :--- |
+| 绿色 | 40% | 0.95 | 日常巡航 |
+| 橙色 | 80% | 1.90 | 战斗机动 |
+| 红色 | 100% | **2.38** | 突防/逃命（有人30秒/无人1小时） |
 
-**应急模式（单发失效0.3秒四步走）**
+**应急模式（单发失效0.3秒四步走）：**
+
 1. 解除油门限制，剩余两台推至最大
 2. 倾转机构以50°/秒转前飞
 3. 自动抛载20%弹药/燃油（可选）
@@ -165,7 +167,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 ## 八、防护与航电（三型通用）
 
 | 系统 | 方案 |
-|:-----|:-----|
+| :----- | :----- |
 | 雷达 | KLC-11轻型多功能雷达，10km探测 |
 | 光电 | 机腹EO/IR微型光电转塔 |
 | 飞控硬件 | 基于国产RT-Thread自研 |
@@ -177,7 +179,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 ## 九、性价比总表
 
 | 型号 | 总价 | 性价比 | 超A-10 |
-|:-----|:-----|:-------|:-------|
+| :----- | :----- | :------- | :------- |
 | 惊雷-A | 3850万 | 0.0244 | +103% |
 | 惊雷-B | 4260万 | 0.0311 | +159% |
 | 惊雷-U | 3400万 | 0.0262 | +118% |
@@ -189,7 +191,7 @@ Any unauthorized commercial use or reproduction is prohibited.
 ## 十、技术澄清（FAQ）
 
 | 质疑 | 回应 |
-|:-----|:-----|
+| :----- | :----- |
 | 单发失效怎么办？ | 0.3秒四步走，自动转前飞 |
 | 推力数据可信吗？ | 按《Aircraft Propulsion》涡桨公式推算 |
 | 红色模式为何限时？ | 发动机热保护，有人30秒/无人1小时 |
@@ -212,9 +214,9 @@ Any unauthorized commercial use or reproduction is prohibited.
 
 **作者**：Mean Darker（初一学生，航空爱好者/半飞友）  
 **设计年份**：2026年3月  
-**联系方式**：GitHub Issues / 717480930@qq.com  
+**联系方式**：GitHub Issues / <717480930@qq.com>  
 **欢迎技术讨论，谢绝无脑喷子。**
 
 ---
 
-**初稿定稿于2026年8月13日**
+>**初稿定稿于2026年8月13日**
