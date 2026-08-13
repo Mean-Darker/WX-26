@@ -217,6 +217,4 @@ Any unauthorized commercial use or reproduction is prohibited.
 
 ---
 
-> **惊雷乍现，VTOL起，机枪齐射，炮艇巡，蜂群压境，质疑全灭。**
-
 **初稿定稿于2026年3月9日**
